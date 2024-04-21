@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sarah's Portfolio</title>
+    <!-- These are css stylr sheets -->
+    <link rel="stylesheet" href="assets/css/styles.css"/>
+        <!-- This is the favicon which will didplay on the url of this page-->
+    <link rel="icon" href="assets/images/favicon/sarai-favicon.ico" />
+  </head>
+  <body>
+    <!-- This is container-fluid which houses everything on this page-->
+    <div class="container-fluid">
+      <!-- this is th navbar row. Navbar begins here -->
+      <div class="navbar">
+        <div class="nav-logo">
+          <!-- This is the navbar brand logo image-->
+          <img
+            class="logo"
+            src="assets/images/logo/sarah-logo.jpg"
+            alt="logo"
+          />
+          <p>EjaSarah<span class="span-p">~</span>Designs</p>
+        </div>
+        <!-- This div houses the b=nav-links -->
+          <nav>
+            <div class="nav-links">
+            <ul>
+              <li>
+                <a href="#Home">Home</a>
+              </li>
+              <li>
+                <a href="#About">About</a>
+              </li>
+              <li>
+                <a href="#Skills">Skills</a>
+              </li>
+              <li>
+                <a href="#project">Project</a>
+              </li>
+              <li>
+                <a href="#Resume">Resume</a>
+              </li>
+              <li>
+                <a href="#Connect">Connect</a>
+              </li>
+              <li>
+                <a href="#message">Message</a>
+              </li>
+            </ul>
+        </div>
+      </nav>
+      </div>
+      <!-- this about section of this page -->
+      <section id="About">
+        <div id="video-background">
+          <video autoplay loop muted>
+            <source src="/MYPORTFOLIO/assets/video/food.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="overlay"></div>
+        <div class="content">
+          <!-- <p>About Me</p> -->
+          <h1>
+            Hi, I'm Sarah Eja Ogbonna, <br />
+            <span> a budding full stack developer.</span> Welcome to my world!.
+          </h1>
+          <p>Thank you for stopping by on page.</p>
+          <p>
+            I'm a passionate upcoming web developer that is passionate about
+            using my skills to solve some of the world's problems.
+          </p>
+          <p>
+            As writer, full chef and voice over-artist, I dived into the world
+            of tech knowing the worlf is fast evolving.
+          </p>
+          <p>
+            And anyone with a basic knowledge of tech might soon be left behind.
+          </p>
+        </div>
+        <div class="others">
+          <div class="other-side-image">
+            <img src="assets/images/myself/saria.jpg" alt="A portrait of Sarah" />
+          </div>
+          <div class="other-side1">
+            <p>The other side of me...</p>
+            <p>I do voice-over as well.</p>
+            <audio src="audio/Morning show.m4a">Extension not found</audio>
+          </div>
+          <div class="other-side2">
+            <p>I enjoy cooking as theraphy.</p>
+            <video autoplay height="240" width="515">
+              Extension not found
+              <source src="video/food.mp4" />
+            </video>
+        </div>
+        </div>
+      </section>
+      <!-- This skills section -->
+      <section id="Skills">
+        <div class="skills">
+          <h2>skills</h2>
+          <p>Below are skills of my skills.</p>
+          <p>Front End skils</p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Bootstrap</li>
+          </ul>
+          <p>Backend Skills</p>
+          <ul>
+            <li>React.js</li>
+            <li>Node.js</li>
+          </ul>
+          <ul>
+            Database Skills
+            <li>Mysql</li>
+            <li>Nosql</li>
+          </ul>
+        </div>
+      </section>
+      <!-- This is work section -->
+      <section id="project">
+        <div class="project">
+          <h3>Please take a look at some of my work.</h3>
+          <p>Party Cake App</p>
+          <p>
+            An app that connect cake vendors with party makers seeking to order
+            party cakes on the go.
+          </p>
+          <a href="#">Party Cake App</a>
+        </div>
+      </section>
+      <!-- This is resume section-->
+      <section id="Resume">
+        <div class="resume">
+          <h4>Get My Resume Here</h4>
+          <button>
+            <a href="assets/sarah's_cv (1).pdf"></a>
+          Download Resume.
+          </button>
+        </div>
+      </section>
+      <!-- This is contact me section -->
+      <section id="Connect">
+        <div>
+          <div class="connect">
+            <a
+              href="https://www.instagram.com/eja_sarah1?igsh=MTdhY2RsdDdieGYxdg"
+              target="_blank"
+            >
+            <div><ion-icon name="logo-instagram"></ion-icon></div></a
+            >
+            <a
+              href="https://www.linkedin.com/in/sarah-eja-ogbonna123456/"
+              target="blank"
+            >
+            <div><ion-icon name="logo-linkedin"></ion-icon></div></a
+            >
+            <a href="https://github.com/EjaSarah" target="_blank">
+              <div><ion-icon name="logo-github"></ion-icon></div></a
+            >
+            
+          <a href="mailto:examplemail@gmail.com" target="_blank"><div><ion-icon name="chatbox-ellipses-outline"></ion-icon></div></a>
+          </div>
+        </div>
+      </section>
+      <!-- This is message me section -->
+      <section id="message">
+        <div  class="message-me">
+          <h5>Would you like us to work together?.</h5>
+          <p>Please kindly leave me a message</p>
+          <form action="">
+            <div class="form-group">
+              <label for="fullname">Full Name</label>
+              <input type="text" name="fullName" placeholder="Damian Sanders" />
+            </div>
+            <div class="form-group">
+              <label for="phoneNumber">Phone number</label>
+              <input
+                type="number"
+                name="phoneNumber"
+                placeholder="0704983722"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="DamianSanders@gmail.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message-Us">Message Us</label>
+              <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </div>
+            <input class="button" type="submit" value="submit" name="submit" />
+          </form>
+        </div>
+      </section>
+      <!-- This footer section -->
+      <section id="footer">
+        <div class="footer" >
+          <nav>
+            <div class="nav-links">
+            <ul>
+              <li>
+                <a href="#Home">Home</a>
+              </li>
+              <li>
+                <a href="#About">About</a>
+              </li>
+              <li>
+                <a href="#Skills">Skills</a>
+              </li>
+              <li>
+                <a href="#project">Project</a>
+              </li>
+              <li>
+                <a href="#Resume">Resume</a>
+              </li>
+              <li>
+                <a href="#Connect">Connect</a>
+              </li>
+              <li>
+                <a href="#message">Message</a>
+              </li>
+            </ul>
+        </div>
+        <p>Copyright &2024; Ejasarah Designs. All rights Reserved.</p>
+      </nav>
+      </section>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+  
+  
+  
